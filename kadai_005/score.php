@@ -20,11 +20,10 @@
        $score8 = 95;
        $score9 = 30;
        $score10 = 60;
-
-      //  変数の中身を出力する
-      echo $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
-      echo '<br>';
-      echo 625 / 10;
+       
+       $total_score = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+      
+      echo $total_score / 10;
        ?>
    </p>
 </body>
