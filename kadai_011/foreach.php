@@ -11,7 +11,7 @@
        <?php
         $personal_data = ['名前' => '玉ねぎ', '値段' => 200, '産地' => '北海道'];
 
-       //  配列$user_namesのインデックスと値を1つずつ順番に出力する
+       //  配列$personal_dataのインデックスと値を1つずつ順番に出力する
         foreach ($personal_data as $index => $value) {
             echo "{$index}：{$value}<br>";
         }
